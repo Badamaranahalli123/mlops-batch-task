@@ -1,0 +1,23 @@
+2026-02-20 09:51:27,711 - INFO - Job started
+2026-02-20 09:51:27,713 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 09:51:27,721 - ERROR - Invalid CSV file format.
+2026-02-23 14:39:17,246 - INFO - Job started
+2026-02-23 14:39:17,267 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-23 14:39:17,268 - ERROR - Input CSV file not found.
+2026-02-23 14:40:12,628 - INFO - Job started
+2026-02-23 14:40:12,631 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-23 14:40:12,671 - ERROR - Missing required 'close' column in dataset.
+2026-02-23 14:44:29,050 - INFO - Job started
+2026-02-23 14:44:29,060 - INFO - Config validated | seed=42, window=5, version=v1
+2026-02-23 14:44:29,230 - INFO - Rows loaded: 10000
+2026-02-23 14:44:29,234 - INFO - Computing rolling mean
+2026-02-23 14:44:29,243 - INFO - Generating signals
+2026-02-23 14:44:29,248 - INFO - Metrics computed: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 195, 'seed': 42, 'status': 'success'}
+2026-02-23 14:44:29,248 - INFO - Job completed successfully
+2026-02-23 14:45:02,226 - INFO - Job started
+2026-02-23 14:45:02,227 - INFO - Config validated | seed=42, window=5, version=v1
+2026-02-23 14:45:02,314 - INFO - Rows loaded: 10000
+2026-02-23 14:45:02,315 - INFO - Computing rolling mean
+2026-02-23 14:45:02,316 - INFO - Generating signals
+2026-02-23 14:45:02,317 - INFO - Metrics computed: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 90, 'seed': 42, 'status': 'success'}
+2026-02-23 14:45:02,318 - INFO - Job completed successfully
