@@ -19,6 +19,8 @@ def write_error_metrics(output_path, version, message):
     with open(output_path, "w") as f:
         json.dump(error_output, f, indent=2)
 
+    print(json.dumps(error_output, indent=2))
+    sys.exit(1)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -39,7 +41,7 @@ def main():
     logging.info("Job started")
     start_time = time.time()
 
-    version = "v1"
+    version = config.get("version", "v1")
 
     try:
         # -------------------------
